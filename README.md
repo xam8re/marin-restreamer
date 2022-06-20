@@ -1,4 +1,4 @@
-# swagger-java-client
+# marin-restreamer
 
 datarhei Core API
 - API version: 3.0
@@ -39,8 +39,8 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>io.swagger</groupId>
-  <artifactId>swagger-java-client</artifactId>
+  <groupId>it.aesolutions</groupId>
+  <artifactId>marin-restreamer</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
@@ -51,7 +51,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "io.swagger:swagger-java-client:1.0.0"
+compile "it.aesolutions:marin-restreamer:1.0.0"
 ```
 
 ### Others
@@ -64,7 +64,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/swagger-java-client-1.0.0.jar`
+* `target/marin-restreamer-1.0.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -73,10 +73,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.DefaultApi;
+import it.aesolutions.client.*;
+import it.aesolutions.client.auth.*;
+import it.aesolutions.client.model.*;
+import it.aesolutions.client.api.DefaultApi;
 
 import java.io.File;
 import java.util.*;
