@@ -41,7 +41,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>it.aesolutions</groupId>
   <artifactId>marin-restreamer</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <scope>compile</scope>
 </dependency>
 ```
