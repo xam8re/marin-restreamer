@@ -176,7 +176,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
                 <version>0.12</version>
@@ -210,7 +210,7 @@
                         internal.repo::default::file://${project.build.directory}/mvn-artifact
                     </altDeploymentRepository>
                 </configuration>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
 
